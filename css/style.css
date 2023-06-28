@@ -16,9 +16,9 @@ body{
 
 /* Nav */
 nav {
-    background-color: #2E2E2E;
+    background-color: #222222;
     width: 100%;
-    height: 60px;
+    height: 65px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -39,7 +39,7 @@ nav {
     text-decoration: none;
     color: #B1B1B1;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
     padding: 10px 15px;
     border-radius: 5px;
     transition: all 0.3s ease; 
@@ -50,11 +50,11 @@ nav {
   }
 
   a:hover {
-    color: white;
+    color: rgb(255, 255, 255);
   } 
 
   .logo{
-    width: 40px;
+    width: 50px;
     height: 40px;
     margin-left: 10px;
   }
@@ -95,8 +95,56 @@ nav {
 	height: 100%;
 	opacity: 0;
 	transition: opacity 2s linear;
+    border-radius: 10px;
 }
 
 .slider-wrapper > .slide:first-child {
 	opacity: 1;
 }
+
+
+/* Jogos */
+.GP {
+    display: flex;
+    /* margin-left: 30px; */
+    margin-top: 500px;
+    display: flex;
+    font-family: Inter,sans-serif;
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+  @media (max-width: 1100px) {
+    .container {
+        align-items: center;
+    }
+  }
+  
+  .titulo {
+    margin-left: 20px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 42px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    color: white;
+    margin-right: 65px;
+  }
+  
+  
+  .gallery-item:hover {
+    transform: scale(1.01);
+  }
+  
+  
+  .container{
+    margin-top: -450px;
+    margin-left: 50px
+  }

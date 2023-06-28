@@ -1,0 +1,75 @@
+
+/*Divs Principais*/
+.principal {
+    padding-top: 10px;
+    resize: none;
+    background:rgb(0, 0, 0);
+    border: 0;
+    border: none;
+    padding-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    line-height: 55px;
+    width: 420px;
+    margin-top: 100px;
+    color: #ffffff;
+}
+
+.segundario {
+    border-top: 3px solid #ff0000b5;
+}
+
+.terceiario {
+    border-top: 3px solid #ff02029f;
+}
+
+
+/*Botoes*/
+input, textarea {
+    background-color: #292828;
+    border: 1px solid #ffffff;
+    border-top: 1px solid rgb(255, 0, 0);
+    color: #ffffff;
+}
+
+fieldset {
+    border:none;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 0.5%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.5rem;
+    background-color:rgb(0, 0, 0);
+    border-color:#ffffff;
+    min-width: 150px;
+    border-radius: 12px;
+  }
+
+/*ID*/
+/*Botão da Senha*/
+#Senha {
+    font-size: 22px;
+    width: 35%;
+    margin-top: 1rem;
+    margin-bottom: 1em;
+    align-items: center;
+    width: 350px;
+}
+/*Botão do Usuario*/
+#Nome_de_Usuario {
+    font-size: 24px;
+    width: 35%;
+    margin-top: 2rem;
+    align-items: center;
+    width: 350px;
+}
+
+/*Fontes*/
+.TextoCima {
+    font-size: 32px;
+    padding-bottom: 0.5rem;
+}
