@@ -51,9 +51,9 @@
 }
 
 .box {
-  width: 170px;
+  width: 200px;
   height: 60px;
-  background-color: rgb(196, 196, 196);
+  background-color: rgb(167, 167, 167);
   margin: 15px;
   padding: auto;
   padding-bottom: 0px;
@@ -67,8 +67,8 @@
 }
 
 .image {
-  flex-basis: 200px;
-  margin: 10px;
+  flex-basis: 300px;
+  margin: 20px;
 }
 
 .image img {
@@ -79,4 +79,15 @@
   width: 100%;
   height: auto;
   opacity: 0.5;
+}
+.box:hover {
+  width: 220px;
+  height: 60px;
+  background-color: rgb(167, 167, 167);
+  margin: 15px;
+  padding: auto;
+  padding-bottom: 0px;
+  border: solid 2px;
+  padding-top: 30px;
+  opacity: 0.8;
 }
