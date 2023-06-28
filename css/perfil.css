@@ -1,0 +1,99 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: inter;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.TUDO {
+    display: flex;
+    flex-direction: row;
+}
+
+.TUDO2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 37px 0;
+    gap: 40px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+
+.profile-picture img {
+    background-color: rgba(89, 84, 84, 0.7);
+    border: 2px solid rgb(89, 84, 84, 0.7);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 0.5%;
+    margin: 0.5em;
+    height: 2em;
+    font-size: 1.3rem;
+    color: #FFF;
+    background-color: #6f766f;
+    border: none;
+    min-width: 200px;
+    border-radius: 36px;
+}
+
+.fav-games {
+    margin: 0 0 0 50px;
+}
+
+.favoritos {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.jogos1 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+
+.borda {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(104, 99, 99, 0.281);
+    padding: 20px;
+    height: 290px;
+}
+
+.histórico {
+    margin: 0 0 0 50px;
+}
+
+.recentes {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.transi {
+    transition: transform 0.3s ease-out;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    border-radius: 16px;
+    height: 300px;
+    width: 500px;
+}
+
+.transi:hover {
+    transform: translateY(8px);
+}
