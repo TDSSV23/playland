@@ -1,47 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogo da Velha</title>
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
     <link rel="stylesheet" href="../css/jogodavelha.css">
 </head>
+
 <body>
-    <!-- nav -->
+    <!--Header/Nav-->
+    <nav>
+        <img class="logo" src="../img/logo.png">
+        <ul class="list1">
+            <li class="line"><a href="../index.html">HOME</a></li>
+            <li class="line"><a href="#">CATEGORIAS</a></li>
+            <li class="line"><a href="../suporte.html">SUPORTE</a></li>
+            <li>│</li>
+            <li class="line"><a href="../perfil.html">PERFIL</a></li>
+        </ul>
+
+        <ul class="list2">
+
+            <li><a class="line"><a href="../login.html">LOGIN</a></li>
+        </ul>
+    </nav>
     <section class="game">
-        <input type="button" value="Mayck" onclick="mayck()">
-        <input type="button" value="Erick" onclick="Erick()">
-        <input type="button" value="Henrique" onclick="Henrique()">
-      </section><br>
-      <div class="container game-card game" id="game-card">
-        <br><br><br><br><br><br><br><br><br><br>
-      </div>
-    
-      <footer>
-      </footer>
-    </body>
-    
-    <script>
-      function mayck() {
-        document.getElementById("game-card").innerHTML = "<iframe src='https://mayck-e.github.io/game1-jogo-da-velha/' frameborder='0' height='600' width='1200' id='full'></iframe>"
-        acao()
-      }
-      function Erick() {
-        document.getElementById("game-card").innerHTML = "<iframe src='https://erick-bfs.github.io/jogo_da_velha/' frameborder='0' height='600' width='1200' id='full'></iframe>"
-        acao()
-      }
-    
-      function Henrique() {
-        document.getElementById("game-card").innerHTML = "<iframe src='https://henriquebertellini.github.io/jogo_da_velha/' frameborder='0' height='600' width='1200' id='full'></iframe>"
-        acao()
-      }
-
-      function acao(){
-        document.getElementById('full').requestFullscreen()
-      }
-      
-
-    </script>
-    <!-- footer -->
+      <input type="button" value="Mayck" onclick="mayck()">
+      <input type="button" value="Erick" onclick="Erick()">
+      <input type="button" value="Henrique" onclick="Henrique()">
+    </section><br>
+    <div class="container game-card game" id="game-card">
+      <br><br><br><br><br><br><br><br><br><br>
+    </div>
+  
+  </body>
+  
+  <script>
+    function mayck() {
+      document.getElementById("game-card").innerHTML = "<iframe src='https://mayck-e.github.io/game1-jogo-da-velha/' frameborder='0' height='600' width='1200' id='full'></iframe>"
+      acao()
+    }
+    function Erick() {
+      document.getElementById("game-card").innerHTML = "<iframe src='https://erick-bfs.github.io/jogo_da_velha/' frameborder='0' height='600' width='1200' id='full'></iframe>"
+      acao()
+    }
+  
+    function Henrique() {
+      document.getElementById("game-card").innerHTML = "<iframe src='https://henriquebertellini.github.io/jogo_da_velha/' frameborder='0' height='600' width='1200' id='full'></iframe>"
+      acao()
+    }
+  
+    function acao() {
+      document.getElementById('full').requestFullscreen()
+    }
+  </script>
 </body>
 </html>
