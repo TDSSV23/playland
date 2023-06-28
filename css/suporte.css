@@ -1,58 +1,93 @@
 .local {
-    margin: auto;
-    padding-left: 80px;
-    padding-top: 30px;
-    color: white;
-    text-align: center;
-    padding-bottom: 30px;
+  margin: auto;
+  padding-left: 80px;
+  padding-top: 30px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
 }
+
 .corprincipal {
-    background-color: rgba(0, 0, 0, 0.8);
-    width: 70%;
-    text-align: center;
-    display: flexbox;
-    border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 70%;
+  text-align: center;
+  display: flexbox;
+  border-radius: 20px;
 }
+
 .barrapesquisa {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-  }
-  
-  .barrapesquisa input[type="text"],
-  .barrapesquisa button {
-    margin: 0 5px;
-    height: 30px;
-    font-size: large;
-  }
-
-  .buscar {
-    width: 80%;
-  }
-  .barrapesquisa button:hover {
-    background-color: red;
-  }
-  .descerbarra {
-    padding-top: 20px;
-  }
- .container {
   display: flex;
   justify-content: center;
   align-items: center;
-    height: 170px;
-    text-align: center;
-    flex-direction:row;
+
+}
+
+.barrapesquisa input[type="text"],
+.barrapesquisa button {
+  margin: 0 5px;
+  height: 30px;
+  font-size: large;
+}
+
+.buscar {
+  width: 80%;
+}
+
+.barrapesquisa button:hover {
+  background-color: red;
+}
+
+.descerbarra {
+  padding-top: 20px;
+}
+
+.container-suporte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 170px;
+  text-align: center;
+  flex-direction: row;
 }
 
 .box {
-  width: 170px;
+  width: 200px;
   height: 60px;
-  background-color: rgb(196, 196, 196);
+  background-color: rgb(167, 167, 167);
   margin: 15px;
   padding: auto;
   padding-bottom: 0px;
   border: solid 2px;
   padding-top: 30px;
-  
+
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  flex-basis: 300px;
+  margin: 20px;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+.image img:hover {
+  width: 100%;
+  height: auto;
+  opacity: 0.5;
+}
+.box:hover {
+  width: 220px;
+  height: 60px;
+  background-color: rgb(167, 167, 167);
+  margin: 15px;
+  padding: auto;
+  padding-bottom: 0px;
+  border: solid 2px;
+  padding-top: 30px;
+  opacity: 0.8;
 }
