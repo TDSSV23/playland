@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="../css/jogodavelha.css">
 </head>
 <body>
     <!-- nav -->
     <section class="game">
         <input type="button" value="Mayck" onclick="mayck()">
-        <input type="button" value="Felipe" onclick="felipe()">
-        <input type="button" value="Giovanna" onclick="gii()">
-        <input type="button" value="Kyara" onclick="kyara()">
-        <input type="button" value="Dagoani" onclick="dagoani()">
-        <input type="button" value="Gratão" onclick="lucas()">
+        <input type="button" value="Erick" onclick="Erick()">
+        <input type="button" value="Marcella" onclick="Marcella()">
+        <input type="button" value="Henrique" onclick="Henrique()">
       </section><br>
       <div class="container game-card game" id="game-card">
         <br><br><br><br><br><br><br><br><br><br>
@@ -25,34 +24,27 @@
     
     <script>
       function mayck() {
-        document.getElementById("game-card").innerHTML = "<iframe src='https://mayck-e.github.io/Jogo_da_Cobra/' frameborder='0' height='600' width='1200' id='full'></iframe>"
+        document.getElementById("game-card").innerHTML = "<iframe src='https://mayck-e.github.io/game1-jogo-da-velha/' frameborder='0' height='600' width='1200' id='full'></iframe>"
         acao()
       }
-      function lucas() {
-        document.getElementById("game-card").innerHTML = "<iframe src='https://lucasgrataope12.github.io/jogo-da-cobrinha/' frameborder='0' height='600' width='1200' id='full'></iframe>"
+      function Erick() {
+        document.getElementById("game-card").innerHTML = "<iframe src='https://erick-bfs.github.io/jogo_da_velha/' frameborder='0' height='600' width='1200' id='full'></iframe>"
         acao()
       }
-      function gii() {
-        document.getElementById("game-card").innerHTML = "<iframe src='https://giile.github.io/js_jogo_cobrinha/' frameborder='0' height='680' width='1200' id='full'></iframe>"
+      function Marcella() {
+        document.getElementById("game-card").innerHTML = "<iframe src='https://marcellavizona.github.io/jogo-da-velha-chaves/' frameborder='0' height='600' width='1200' id='full'></iframe>"
         acao()
       }
-      function kyara() {
-        document.getElementById("game-card").innerHTML = "<iframe src='https://kycimento.github.io/js_jogo_cobrinha/' frameborder='0' height='600' width='1200' id='full'></iframe>"
+      function Henrique() {
+        document.getElementById("game-card").innerHTML = "<iframe src='https://henriquebertellini.github.io/jogo_da_velha/' frameborder='0' height='600' width='1200' id='full'></iframe>"
         acao()
       }
-      function dagoani() {
-        document.getElementById("game-card").innerHTML = "<iframe src='https://mdagoani.github.io/js_jogo_cobrinha/' frameborder='0' height='600' width='1200' id='full'></iframe>"
-        acao()
+
+      function acao(){
+        document.getElementById('full').requestFullscreen()
       }
-      function felipe() {
-        document.getElementById("game-card").innerHTML = "<iframe src='https://felipehmazotti.github.io/snake_game2.0/' frameborder='0' height='600' width='1200' id='full'></iframe>"
-        acao()
-      }
-    
-      function acao() {
-        document.getElementById("full").requestFullscreen()
-    
-      }
+      
+
     </script>
     <!-- footer -->
 </body>

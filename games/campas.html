@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br   ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campo Minado</title>
+</head>
+<body>
+    <input type="button" value="Mayck" onclick="campas()">
+    <div id="game-card"></div>
+</body>
+<script>
+    function campas() {
+        document.getElementById("game-card").innerHTML = "<iframe src='https://erick-bfs.github.io/campominado/' frameborder='0' height='600' width='1200' id='full'></iframe>"
+        acao()
+      }
+    
+      function acao() {
+        document.getElementById("full").requestFullscreen()
+      }
+</script>
+</html>
