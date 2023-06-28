@@ -1,0 +1,18 @@
+body{
+    background-image: url(../img/fundo.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+input{
+    border-radius: 10px;
+    background-color: rgb(165, 164, 164);
+    border: 3px solid rgb(0, 0, 0);
+    padding: 9px 28px;
+    
+}
+
+input:hover {
+    background-color: rgb(148, 145, 145);
+
+  }
