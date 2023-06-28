@@ -43,7 +43,6 @@ input[type="submit"] {
     width: 0.5%;
     margin: 1em auto;
     height: 2em;
-    font-size: 1.5rem;
     background-color:rgb(0, 0, 0);
     border-color:#ffffff;
     min-width: 150px;
@@ -53,7 +52,6 @@ input[type="submit"] {
 /*ID*/
 /*Botão da Senha*/
 #Senha {
-    font-size: 22px;
     width: 35%;
     margin-top: 1rem;
     margin-bottom: 1em;
@@ -62,7 +60,7 @@ input[type="submit"] {
 }
 /*Botão do Usuario*/
 #Nome_de_Usuario {
-    font-size: 24px;
+
     width: 35%;
     margin-top: 2rem;
     align-items: center;
@@ -73,4 +71,9 @@ input[type="submit"] {
 .TextoCima {
     font-size: 32px;
     padding-bottom: 0.5rem;
+}
+
+input{
+    padding: .3rem;
+    font-size: 1.2rem;
 }
