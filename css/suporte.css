@@ -40,12 +40,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-    height: 250px;
+    height: 170px;
+    text-align: center;
+    flex-direction:row;
 }
 
 .box {
-  width: 200px;
-  height: 200px;
-  background-color: lightblue;
-  margin: 10px;
+  width: 170px;
+  height: 60px;
+  background-color: rgb(196, 196, 196);
+  margin: 15px;
+  padding: auto;
+  padding-bottom: 0px;
+  border: solid 2px;
+  padding-top: 30px;
+  
 }
