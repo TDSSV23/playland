@@ -1,0 +1,51 @@
+.local {
+    margin: auto;
+    padding-left: 80px;
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.corprincipal {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 70%;
+    text-align: center;
+    display: flexbox;
+    border-radius: 20px;
+}
+.barrapesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .barrapesquisa input[type="text"],
+  .barrapesquisa button {
+    margin: 0 5px;
+    height: 30px;
+    font-size: large;
+  }
+
+  .buscar {
+    width: 80%;
+  }
+  .barrapesquisa button:hover {
+    background-color: red;
+  }
+  .descerbarra {
+    padding-top: 20px;
+  }
+ .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    height: 250px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  margin: 10px;
+}
