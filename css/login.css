@@ -17,19 +17,19 @@
 }
 
 .segundario {
-    border-top: 3px solid #ffffff5a;
+    border-top: 3px solid #ff0000b5;
 }
 
 .terceiario {
-    border-top: 3px solid #ffffff27;
+    border-top: 3px solid #ff02029f;
 }
 
 
 /*Botoes*/
 input, textarea {
     background-color: #292828;
-    border: 1px solid #000000;
-    border-bottom: 1px solid white;
+    border: 1px solid #ffffff;
+    border-top: 1px solid rgb(255, 0, 0);
     color: #ffffff;
 }
 
