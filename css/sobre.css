@@ -1,0 +1,81 @@
+h2 {
+    font-family: 'Pacifico', cursive;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
+    padding: 15px 34px;
+    margin-top: 45px;
+    color: #ffffff;
+}
+
+input:hover {
+    background-color: rgba(0, 0, 0, 0.144);
+
+}
+
+.profissoes {
+    text-align: center;
+}
+
+.grupoDev {
+    padding-top: 25px;
+    display: flex;
+    color: white;
+    flex-direction: row;
+}
+
+/*Grupo Dev*/
+.master {
+    padding-top: 5px;
+    resize: none;
+    background: rgba(0, 0, 0, 0.562);
+    border: 1px solid red;
+    padding-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    line-height: 55px;
+    width: 320px;
+    margin-top: 100px;
+    color: #ffffff;
+    border-radius: 12px;
+}
+
+.design {
+    padding-top: 5px;
+    resize: none;
+    background: rgba(0, 0, 0, 0.562);
+    border: 1px solid red;
+    padding-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    line-height: 55px;
+    width: 320px;
+    margin-top: 100px;
+    color: #ffffff;
+    border-radius: 12px;
+}
+
+.programador {
+    padding-top: 5px;
+    resize: none;
+    background: rgba(0, 0, 0, 0.678);
+    border: 1px solid red;
+    padding-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    line-height: 55px;
+    width: 320px;
+    margin-top: 100px;
+    color: #ffffff;
+    border-radius: 12px;
+}
