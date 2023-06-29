@@ -17,3 +17,7 @@ input:hover {
     background-color: rgb(101, 99, 99);
 
   }
+
+.game input{
+    margin: auto;
+}
