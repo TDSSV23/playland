@@ -1,0 +1,137 @@
+/* Tudo */
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+
+/* Body */
+body{
+    background-image: url(../img/fundo.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+
+
+
+/* Nav */
+nav {
+    background-color: #222222;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Inter,sans-serif;
+    
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #B1B1B1;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease; 
+  }
+  
+  li{
+    color: #B1B1B1;
+  }
+
+  a:hover {
+    color: rgb(255, 255, 255);
+  } 
+
+  .logo{
+    width: 50px;
+    height: 40px;
+    margin-left: 10px;
+  }
+
+  .list1 { 
+    display: flex;
+    justify-content: flex-start;
+
+  }
+  
+  .list2 { 
+    display: flex;
+    margin-right: 10px;
+    margin-left: auto;
+  }
+
+  #bx {
+    color: #3562FF;
+  }
+  
+  .conta {
+    text-align: center;
+    font-weight: 10;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+  }
+  
+  .conta2 {
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    width: 1000px;
+    height: 450px;
+    border-radius: 20px;
+    color: white;
+  }
+  
+  .Nick {
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  #nicktext {
+    background: #423E3E;
+    border-radius: 3px;
+    color: #E9E9E9;
+    padding: 8px 6px;
+    display: block;
+    box-shadow: none;
+    border: none;
+    width: 30%;
+    transition: border ease-in-out .5s;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    margin: auto;
+  }
+
+  .Nick_ {
+    margin-left: 350px;
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .concluir {
+    margin-left: 420px;
+    margin-top: 70px;
+  }
+  
+  .button {
+    display: block;
+    width: 0.5%;
+    margin-left: 0px;
+    height: 2em;
+    background-color:rgb(0, 0, 0);
+    border-color:#ffffff;
+    min-width: 150px;
+    border-radius: 12px;
+    font-size: 20px;
+  }
