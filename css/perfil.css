@@ -1,10 +1,10 @@
 body {
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: inter;
     color: #FFF;
     font-weight: 700;
 }
+
 
 .TUDO {
     display: flex;

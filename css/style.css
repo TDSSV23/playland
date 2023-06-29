@@ -80,7 +80,7 @@ nav {
   /* Carrossel */
  .slider {
 	width: 860px;
-	margin: 2em auto;
+	margin: 4rem auto;
 }
 
 .slider-wrapper {
@@ -132,7 +132,7 @@ nav {
     justify-content: center;
     align-items: flex-start;
     gap: 42px;
-    max-width: 1400px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px 10px;
     color: white;
@@ -152,7 +152,7 @@ nav {
 
   footer{
     height: auto;
-    width: 100%;
+    width: auto;
     background-color: #222222;
     text-align: center;
     padding: 1rem;
