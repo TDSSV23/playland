@@ -13,22 +13,31 @@
 </head>
 
 <body>
-    <!--Header/Nav-->
-    <nav>
-        <img class="logo" src="../img/Logo.png">
-        <ul class="list1">
-            <li class="line"><a href="../index.html">HOME</a></li>
-            <li class="line"><a href="#">CATEGORIAS</a></li>
-            <li class="line"><a href="../suporte.html">SUPORTE</a></li>
-            <li>│</li>
-            <li class="line"><a href="../perfil.html">PERFIL</a></li>
-        </ul>
+   <!--Header/Nav-->
+   <nav>
+    <img class="logo" src="../img/logo.png">
+    <ul class="list1">
+        <li class="line"><a href="../index.html">HOME</a></li>
+        <li class="line">
+            <div class="dropdown">
+                <a href="#" class="dropbtn">CATEGORIAS</a>
+                <div class="dropdown-content">
+                    <a href="../games/jogo da velha.html">Jogo da Velha</a>
+                    <a href="../games/cobrinha.html">Cobrinha</a>
+                    <a href="../games/campas.html">Campo Minado</a>
+                </div>
+            </div>
+        </li>
+        <li class="line"><a href="../suporte.html">SUPORTE</a></li>
+        <li>│</li>
+        <li class="line"><a href="../perfil.html">PERFIL</a></li>
+    </ul>
 
-        <ul class="list2">
+    <ul class="list2">
 
-            <li><a class="line"><a href="../login.html">LOGIN</a></li>
-        </ul>
-    </nav>
+        <li><a class="line"><a href="../login.html">LOGIN</a></li>
+    </ul>
+</nav>
     <br><br>
     <section class="game">
       <input type="button" value="Pedro" onclick="Pedro()">
